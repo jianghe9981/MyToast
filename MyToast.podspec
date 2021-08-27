@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "jianghe9981" => "jianghe8316@gmail.com" }
   s.ios.deployment_target = "10.0"
 
-  s.source = { :git => "https://github.com/jianghe9981/MyToast.git", :commit => "1ff0b61 ", :tag 
-=> "#{s.version}"}
+  s.source = {:git => "https://github.com/jianghe9981/MyToast.git", :commit =>"1ff0b61", :tag => "#{s.version}" }
 
 
   s.source_files  = "Classes/*"
