@@ -1,24 +1,24 @@
 
-Pod::Spec.new do |spec|
-  spec.name         = "MyToast"
-  spec.version      = "0.0.1"
-  spec.summary      = "A summary MyToast. just for test remote pods"
-  spec.description  = <<-DESC
+Pod::Spec.new do |s|
+  s.name         = "MyToast"
+  s.version      = "0.0.2"
+  s.summary      = "A summary MyToast. just for test remote pods"
+  s.description  = <<-DESC
                     just for test remote pods
                    DESC
-  spec.homepage     = "https://github.com/jianghe9981/MyToast.git"
-  #spec.license      = "FILE_LICENSE"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  spec.author             = { "jianghe9981" => "jianghe8316@gmail.com" }
-  spec.ios.deployment_target = "10.0"
+  s.homepage     = "https://github.com/jianghe9981/MyToast.git"
+  #s.license      = "FILE_LICENSE"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.author             = { "jianghe9981" => "jianghe8316@gmail.com" }
+  s.ios.deployment_target = "10.0"
 
-  spec.source = { :git => "https://github.com/jianghe9981/MyToast.git", :commit => "1ff0b61 ", :tag 
-=> "#{spec.version}" }
+  s.source = { :git => "https://github.com/jianghe9981/MyToast.git", :commit => "1ff0b61 ", :tag 
+=> "#{s.version}"}
 
 
-  spec.source_files  = "Classes/*"
-  spec.requires_arc = true
+  s.source_files  = "Classes/*"
+  s.requires_arc = true
 
-  spec.dependency "HandyJSON"
+  s.dependency "HandyJSON"
 
 end
