@@ -12,8 +12,9 @@ Pod::Spec.new do |s|
   s.author             = { "wangdazhuang" => "jianghe8316@gmail.com" }
   s.ios.deployment_target = "10.0"
 
-  s.source = {:http => "https://github.com/jianghe9981/MyToast/blob/main/MyToast.zip", :commit =>"2e50697", :tag => "#{s.version}" }
+  s.source = {:http => "https://github.com/jianghe9981/MyToast/blob/main/MyToast.zip", :tag => "#{s.version}" }
 
+  #s.source = {:git => "https://github.com/jianghe9981/MyToast/MyToast.zip.git", :commit #=>"2e50697", :tag => "#{s.version}" }
 
   s.source_files  = "Classes/*"
   s.requires_arc = true
