@@ -14,11 +14,13 @@ Pod::Spec.new do |s|
 
   #s.source = {:type => "zip",:http => "https://github.com/jianghe9981/MyToast/blob/main/MyToast.zip"}
 
-  #s.source = {:http => "https://github.com/jianghe9981/MyToast.git", :commit => "2e50697", :tag => s.version.to_s }
+  #s.source = {:git => "https://github.com/jianghe9981/MyToast.git", :commit => "2e50697", :tag => s.version.to_s }
+
+  s.source = {:git => "https://github.com/jianghe9981/MyToast.git", :tag => s.version.to_s }
 
   #s.source = {:http => "https://github.com/jianghe9981/MyToast.git", :tag => s.version.to_s }
 
-  s.source = {:http => "https://github.com/jianghe9981/MyToast.git"}
+  #s.source = {:http => "https://github.com/jianghe9981/MyToast.git"}
   s.source_files  = "Classes/*"
   s.requires_arc = true
   s.dependency "HandyJSON"
